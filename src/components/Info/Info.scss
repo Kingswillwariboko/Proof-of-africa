@@ -1,0 +1,113 @@
+.info{
+    padding: 1rem;
+
+    &__one{
+        &-msg{
+            margin-top: 2rem;
+            h4{
+                font-family: 'Computer says no';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 40px;
+                color: #000000;
+            }
+    
+            p{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                letter-spacing: -0.04em;
+                color: #000000;
+                margin-top: 1.5rem;
+            }
+    
+            button{
+                margin-top: 1rem;
+                background: #FFDE59;
+                border-radius: 64px;
+                border: 0;
+                padding: 1rem;
+            }
+        }
+
+        &-hosts{
+            
+            img{
+                
+            }
+        }
+    }
+
+    &__two{
+        margin-top: 2rem;
+        background: #FFDE59;
+        margin: -1rem;
+        margin-top: 3rem;
+        padding: 1rem;
+        h3{
+            margin-top: 1rem;
+            font-family: 'Computer says no';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 40px;
+            /* identical to box height, or 71% */
+
+
+            /* Black */
+
+            color: #000000;
+            margin-bottom: 2rem;
+        }
+
+        &-main{
+        background: #FFFFFF;
+        /* Black */
+
+        border: 1px solid #000000;
+        border-radius: 12px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+            .check{
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                img{
+                    margin-right: .5rem;
+                }
+
+                p{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 120%;
+                    /* identical to box height, or 24px */
+
+
+                    /* Black */
+
+                    color: #000000;
+
+                }
+            }
+
+            p{
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+
+                letter-spacing: -0.04em;
+
+                color: #000000;
+            }
+        }
+    }
+}
