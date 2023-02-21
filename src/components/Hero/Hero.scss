@@ -1,0 +1,36 @@
+.hero{
+    padding: 1rem;
+    height: 50vh;
+
+    &__msg{
+        h4{
+            font-family: 'Computer says no';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 50px;
+            /* identical to box height, or 62% */
+            /* white */
+            // color: #FFFFFF;
+
+        }
+
+        p{
+            margin-top: 1rem;
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.04em;
+            // color: #FFFFFF;
+            width: 80%;
+        }
+    }
+
+    &__btn{
+        position: absolute;
+        right: 20%;
+        top: 40%;
+    }
+}
