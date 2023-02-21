@@ -1,0 +1,46 @@
+.form{
+    padding: 1rem;
+    text-align: center;
+    &__header{
+        background: #000000;
+        border-radius: 12px;
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        h4{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 100%;
+            /* identical to box height, or 24px */
+
+            text-align: center;
+
+            /* white */
+
+            color: #FFFFFF;
+        }
+
+        p{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* white */
+            color: #FFFFFF;
+        }
+        button{
+            margin-top: 1rem;
+            background: #FFDE59;
+            border-radius: 64px;
+            border: 0;
+            padding: 1rem;
+        }
+    }
+}
