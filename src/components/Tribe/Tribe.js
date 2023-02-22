@@ -38,9 +38,9 @@ const Tribe = () => {
 
         <div className='tribe__main-one'>
             <div>
-                <h4>The Tribal series</h4>
-                <p>Take a trip to the past</p>
-                <button> with us</button>
+                <h4>Cultural Spaces</h4>
+                <p>An opportunity to uncover talented web3 artists cross chain</p>
+                <button> Connect with us</button>
             </div>
            
             <div className='img'>
