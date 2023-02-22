@@ -14,7 +14,7 @@ const Form = () => {
         </div>
     </div>
 
-    <div>
+    <div className='formm'>
         <form>
             <h4>Hello Creator</h4>
             <p>Tell us more abut yourself. 
@@ -96,7 +96,7 @@ const Form = () => {
                     required
                 />
           </div>
-          <button>submit</button>
+          <button>Submit</button>
         </form>
         
     </div>

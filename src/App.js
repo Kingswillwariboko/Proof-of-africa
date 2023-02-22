@@ -1,5 +1,6 @@
 import './App.scss';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer/Footer';
 import Form from './components/form/Form';
 import Header from './components/Header/Header';
 import Hero from "./components/Hero/Hero"
@@ -15,6 +16,7 @@ function App() {
       <Carousel />
       <Info />
       <Form />
+      <Footer />
     </div>
   );
 }

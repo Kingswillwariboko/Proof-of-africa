@@ -1,8 +1,8 @@
 .tribe{
     padding: 1rem;
-
-    &__main{
+    &__main-one{
         position: relative;
+        width: 100%;
         h4{
             font-family: 'Roboto';
             font-style: normal;
@@ -49,4 +49,9 @@
             right: 0%;
         }
     }
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
 }
