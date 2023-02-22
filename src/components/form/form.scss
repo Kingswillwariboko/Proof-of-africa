@@ -1,7 +1,14 @@
 .form{
     padding: 1rem;
     text-align: center;
+    @media (min-width: 768px){
+       padding: 3rem;
+    }
     &__header{
+        @media (min-width: 768px){
+            width: 93%;
+            margin: 0 auto;
+         }
         background: #000000;
         border-radius: 12px;
         padding: 1rem;
@@ -9,6 +16,12 @@
         padding-bottom: 2rem;
 
         h4{
+
+            @media (min-width: 768px){
+                font-weight: 700;
+                font-size: 3rem;
+                line-height: 100%;
+             }
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 700;
@@ -24,6 +37,15 @@
         }
 
         p{
+            @media (min-width: 768px){
+                ont-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height, or 150% */
+                
+                text-align: center;
+                letter-spacing: -0.04em;                
+             }
             font-family: 'Work Sans';
             font-style: normal;
             font-weight: 400;

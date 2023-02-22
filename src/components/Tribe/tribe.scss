@@ -1,5 +1,8 @@
 .tribe{
     padding: 1rem;
+    @media (min-width: 768px){
+        padding: 3rem;
+     }
     &__main-one{
         position: relative;
         width: 100%;
@@ -13,6 +16,11 @@
             /* white */
             // color: #FFFFFF;
             margin-top: 1rem;
+            @media (min-width: 768px){
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 120%;
+             }
         }
 
         p{
@@ -25,6 +33,13 @@
 
             letter-spacing: -0.04em;
             margin-top: 1rem;
+
+            @media (min-width: 768px){
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 42px;
+                width: 50%;
+             }
         }
 
         button{
@@ -40,6 +55,11 @@
             
             text-align: center;
             margin-top: 1rem;
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+             }
 
         }
 
@@ -47,6 +67,11 @@
             position: absolute;
             top: 5%;
             right: 0%;
+
+            @media (min-width: 768px){
+                width: 25%;
+                top: 10%
+             }
         }
     }
 }

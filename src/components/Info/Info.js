@@ -31,6 +31,7 @@ const Info = () => {
       <div className='info__two'>
           <h3>Meet Your Co-Hosts</h3>
 
+          <div className='ok'>
           <div className="info__two-main">
               <div className='check'>
                   <img src={avatar} alt=""/>
@@ -53,6 +54,7 @@ const Info = () => {
                 ‘La Tei Mei La Resistance’
                  captures her own experiences and emotions as a woman, artist and Taiwanese.
                   Connect On Twitter</p>
+          </div>
           </div>
       </div>
     </div>

@@ -2,8 +2,25 @@
     background-color: #000000;
     padding: 1rem;
 
+    @media (min-width: 768px){
+        padding: 3rem;
+        
+     }
+
     &__tribe{
         margin-top: 4rem;
+        @media (min-width: 768px){
+                display: flex;
+               
+                
+        }
+
+        &-one{
+            @media (min-width: 768px){
+                width: 50%;
+                margin-top: 8rem;
+             }
+        }
         h3{
             font-family: 'Computer says no';
             font-style: normal;
@@ -17,6 +34,12 @@
             /* white */
 
             color: #FFFFFF;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 4rem;
+                line-height: 68px;
+             }
         }
 
         p{
@@ -31,11 +54,34 @@
             /* white */
             color: #FFFFFF;
 
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 4rem;
+                line-height: 68px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* or 150% */
+
+                letter-spacing: -0.04em;
+             }
+
         }
 
         &-two{
             margin-top: 2rem;
             text-align: center;
+            @media (min-width: 768px){
+                width: 40%;
+             }
+
+            img{
+                @media (min-width: 768px){
+                    width: 100%;
+                 }
+            }
         }
     }
 }
