@@ -21,42 +21,45 @@ const Form = () => {
                 Fill the form below to register
                  for the POA cultural spaces</p>
 
+        <div className='box'>
+            <div className='inp'>
+                <label>Phone number</label> 
+                <input
+                        value=""
+                        placeholder="Enter phone number"
+                        required
+                    />
+            </div>
 
-         <div className='inp'>
-            <label>Phone number</label> 
-              <input
-                    value=""
-                    placeholder="Enter phone number"
-                    required
-                />
-          </div>
+            <div className='inp'>
+                <label>Phone number</label> 
+                <input
+                        value=""
+                        placeholder="Enter phone number"
+                        required
+                    />
+            </div>
+        </div>
 
-          <div className='inp'>
-            <label>Phone number</label> 
-              <input
-                    value=""
-                    placeholder="Enter phone number"
-                    required
-                />
-          </div>
+        <div className='box'>
+            <div className='inp'>
+                <label>Phone number</label> 
+                <input
+                        value=""
+                        placeholder="Enter phone number"
+                        required
+                    />
+            </div>
 
-          <div className='inp'>
-            <label>Phone number</label> 
-              <input
-                    value=""
-                    placeholder="Enter phone number"
-                    required
-                />
-          </div>
-
-          <div className='inp'>
-            <label>Phone number</label> 
-              <input
-                    value=""
-                    placeholder="Enter phone number"
-                    required
-                />
-          </div>
+            <div className='inp'>
+                <label>Phone number</label> 
+                <input
+                        value=""
+                        placeholder="Enter phone number"
+                        required
+                    />
+            </div>
+        </div>
 
           <div className='inp'>
             <label>Phone number</label> 

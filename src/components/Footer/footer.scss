@@ -2,6 +2,18 @@
     padding: 1rem;
     background-color: #000000;
 
+    @media (min-width: 768px){
+        padding: 3rem;
+    }
+
+    .foot{
+        @media (min-width: 768px){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
     &__one{
         p{
             font-style: normal;
@@ -159,6 +171,12 @@
 
     &__three{
         margin-top: 3rem;
+
+        @media (min-width: 768px){
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
         p{
             font-family: 'Roboto';
             font-style: normal;
@@ -186,3 +204,4 @@
         }
     }
 }
+

@@ -7,6 +7,7 @@ import './footer.scss'
 const Footer = () => {
   return (
     <div className='footer'>
+        <div className="foot">
         <div className='footer__one'>
             <img src={proof} alt=""/>
 
@@ -55,8 +56,11 @@ const Footer = () => {
             </div>
         </div>
 
+        </div>
+
+        <hr />
+        
         <div className='footer__three'>
-            <hr />
             <p>2023 Proof of Africa. All right reserved.</p>
 
             <div className='footer__three-one'>
