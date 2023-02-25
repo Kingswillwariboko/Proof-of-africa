@@ -1,4 +1,6 @@
 import React, { useRef, useState } from 'react'
+import { db } from "../../Firebase"
+import Modal from '../Modal/Modal'
 
 import "./form.scss"
 
@@ -46,13 +48,56 @@ const options = [
 
 const Form = () => {
   const [selectedOption, setSelectedOption] = useState('');
+  const[name, setName] = useState('')
+  const[email, setEmail] = useState('')
+  const[twitter, setTwitter] = useState('')
+  const[what, setWhat] = useState('')
+  const[that, setThat] = useState('')
+  const[motive, setMotive] = useState('')
+  const[nft, setNft] = useState('')
   const [isOpen, setIsOpen] = useState(false);
   const scrollableContainerRef = useRef(null);
+  const[showModal, setShowModal] = useState(false)
 
   const handleOptionClick = (optionValue) => {
     setSelectedOption(optionValue);
     setIsOpen(false);
   };
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+
+  
+    db.collection("contacts")
+   .add({
+      email,
+      name,
+      twitter,
+      what,
+      that,
+      motive,
+      nft,
+      selectedOption
+   }).then(()=>{
+       setShowModal(true)
+       setTimeout(() => {
+         setShowModal(false)
+         }, 5000); 
+   }).catch((error)=>{
+      alert(error.message)
+   })
+
+   setEmail("")
+   setName('')
+   setTwitter('')
+   setWhat('')
+   setMotive('')
+   setNft('')
+   setThat('')
+   setSelectedOption('')
+   setShowModal(false)
+}
+
 
   const renderedOptions = options.map((option) => (
     <li ref={scrollableContainerRef} className="" key={option.value} onClick={() => handleOptionClick(option.value)}>
@@ -63,6 +108,8 @@ const Form = () => {
 
   return (
     <>
+     {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
+            <Modal /></div>}
     <div className='form'>
         <div className='form__header'>
             <h4>New to spaces?</h4>
@@ -73,7 +120,7 @@ const Form = () => {
     </div>
 
     <div className='formm'>
-        <form>
+        <form onSubmit={handleSubmit}>
             <h4>Hello Creator</h4>
             <p>Tell us more abut yourself. 
                 Fill the form below to register
@@ -82,36 +129,36 @@ const Form = () => {
         <div className='main-box'>
         <div className='box'>
             <div className='inpp'>
-                <label>Phone number</label> 
+                <label>Name</label> 
                 <input
-                        value=""
-                        placeholder="Enter phone number"
+                        value={name}
                         required
+                        onChange={(e)=>setName(e.target.value)}
                     />
             </div>
 
             <div className='inpp'>
-                <label>Phone number</label> 
+                <label>Email</label> 
                 <input
-                        value=""
-                        placeholder="Enter phone number"
+                        value={email}
                         required
+                        onChange={(e)=>setEmail(e.target.value)}
                     />
             </div>
         </div>
 
         <div className='box'>
             <div className='inpp'>
-                <label>Phone number</label> 
+                <label>Twitter</label> 
                 <input
-                        value=""
-                        placeholder="Enter phone number"
+                        value={twitter}
                         required
+                        onChange={(e)=>setTwitter(e.target.value)}
                     />
             </div>
 
             <div className='inpp'>
-                <label>options</label> 
+                <label>Collection type</label> 
                 <div 
                 className="dropdown"
                 tabIndex="0"
@@ -135,47 +182,45 @@ const Form = () => {
         </div>
 
           <div className='inp'>
-            <label>Phone number</label> 
+            <label>What inspires you to create?</label> 
               <textarea
-                    value=""
-                    placeholder="Enter phone number"
+                    value={what}
                     required
+                    onChange={(e)=>setWhat(e.target.value)}
                 />
           </div>
 
 
           <div className='inp'>
-            <label>Phone number</label> 
+            <label>Who are your biggest artistic influences?</label> 
               <textarea
-                    value=""
-                    placeholder="Enter phone number"
+                    value={that}
                     required
+                    onChange={(e)=>setThat(e.target.value)}
                 />
           </div>
 
 
           <div className='inp'>
-            <label>Phone number</label> 
+            <label>What is the motive behind your art?</label> 
               <textarea
-                    value=""
-                    placeholder="Enter phone number"
+                    value={motive}
                     required
+                    onChange={(e)=>setMotive(e.target.value)}
                 />
           </div>
 
 
           <div className='inp'>
-            <label>Phone number</label> 
+            <label>Do you have an NFT collection of your work?</label> 
               <textarea
-                    value=""
-                    placeholder="Enter phone number"
+                    value={nft}
                     required
+                    onChange={(e)=>setNft(e.target.value)}
                 />
           </div>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </div>
-
-        
         </form>
         
     </div>

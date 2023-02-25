@@ -93,7 +93,11 @@
         border-radius: 8px;
         padding: 2rem;
         margin-top: -7rem;
-        padding-left: 7rem;
+        
+
+        @media (min-width: 768px){
+            padding-left: 7rem;
+        }
        
 
         .main-box{
@@ -313,4 +317,16 @@
         margin-bottom: .5rem;
 
     }
+}
+
+.modal-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.525);
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }

@@ -5,6 +5,7 @@ import Form from './components/form/Form';
 import Header from './components/Header/Header';
 import Hero from "./components/Hero/Hero"
 import Info from './components/Info/Info';
+import Modal from './components/Modal/Modal';
 import Tribe from './components/Tribe/Tribe';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Info />
       <Form />
       <Footer />
+
+      {/* <Modal /> */}
     </div>
   );
 }
