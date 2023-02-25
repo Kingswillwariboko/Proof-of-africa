@@ -6,10 +6,8 @@
     &__main-one{
         position: relative;
         width: 100%;
-        height: 22vh;
+        height: 180px;
         padding-top: 1rem;
-        
-
         @media (min-width: 768px){
             height: 417px;
             display: flex;
@@ -26,7 +24,7 @@
             /* identical to box height, or 24px */
             /* white */
             color: #FFFFFF;
-            margin-top: 1.5rem;
+            margin-top: 1rem;
             @media (min-width: 768px){
                 font-weight: 700;
                 font-size: 56px;
@@ -44,7 +42,7 @@
             /* identical to box height, or 16px */
 
             letter-spacing: -0.04em;
-            margin-top: .8rem;
+            margin-top: .5rem;
             color: #FFFFFF;
 
             @media (min-width: 768px){
@@ -101,6 +99,7 @@
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 
 }
 
@@ -109,6 +108,15 @@
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: -1rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .h4{
+    margin-top: -1rem !important;
+   
+  }
 }
 
 .main{

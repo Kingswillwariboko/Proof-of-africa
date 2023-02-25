@@ -1,8 +1,66 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
 import "./form.scss"
 
+const options = [
+  {
+    value: "3D"
+  },
+  {
+    value: "Animation"
+  },
+  {
+    value: "Architecture"
+  },
+  {
+    value: "Character Design"
+  },
+  {
+    value: "Comics"
+  },
+  {
+    value: "Concept Art"
+  },
+  {
+    value: "Contemporary Art"
+  },
+  {
+    value: "Collage"
+  },
+  {
+    value: "Digital Painting"
+  },
+  {
+    value: "Illustrationt"
+  },
+  {
+    value: "Interactive"
+  },
+  {
+    value: "Motion"
+  },
+  {
+    value: "Painting"
+  },
+]
+
 const Form = () => {
+  const [selectedOption, setSelectedOption] = useState('');
+  const [isOpen, setIsOpen] = useState(false);
+  const scrollableContainerRef = useRef(null);
+
+  const handleOptionClick = (optionValue) => {
+    setSelectedOption(optionValue);
+    setIsOpen(false);
+  };
+
+  const renderedOptions = options.map((option) => (
+    <li ref={scrollableContainerRef} className="" key={option.value} onClick={() => handleOptionClick(option.value)}>
+      {option.value}
+    </li>
+  ));
+
+
   return (
     <>
     <div className='form'>
@@ -53,12 +111,27 @@ const Form = () => {
             </div>
 
             <div className='inpp'>
-                <label>Phone number</label> 
+                <label>options</label> 
+
+                <div 
+                className="dropdown"
+                tabIndex="0"
+                onBlur={() => setIsOpen(false)}
+                onFocus={() => setIsOpen(true)}>
                 <input
-                        value=""
-                        placeholder="Enter phone number"
-                        required
+                        type="text"
+                        placeholder="Select an option"
+                        value={selectedOption}
+                        onChange={(e) => setSelectedOption(e.target.value)}
+                        onClick={() => setIsOpen(true)}
                     />
+                    {isOpen && (
+                      <ul className="dropdown-menu">
+                       {renderedOptions}
+                    </ul>
+                     )}
+                </div>
+                
             </div>
         </div>
 

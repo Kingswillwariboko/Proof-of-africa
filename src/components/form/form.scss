@@ -273,3 +273,41 @@
 
 
  }
+
+ .dropdown{
+    width: 100%;
+
+    input{
+        width: 100% !important;
+    }
+ }
+.dropdown-menu{
+    border: 1px solid;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2), 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1rem;
+
+    @media (min-width: 768px){
+        position: absolute;
+        width: 22%;
+        z-index: 100;
+        background-color: #FFFFFF;
+    }
+
+
+    li{
+        margin-top: 15px;
+        list-style: none;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: -0.04em;
+        margin-left: 2rem;
+        margin-bottom: .5rem;
+
+    }
+}

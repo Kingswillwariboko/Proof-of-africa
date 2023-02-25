@@ -39,7 +39,7 @@ const Tribe = () => {
 
         <div className='tribe__main-one check-two'>
             <div className="main">
-                <h4>Cultural Spaces</h4>
+                <h4 className='h4'>Cultural Spaces</h4>
                 <p>An opportunity to uncover talented web3 artists cross chain</p>
                 <button> Connect with us</button>
             </div>
