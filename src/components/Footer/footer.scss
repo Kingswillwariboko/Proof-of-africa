@@ -30,6 +30,12 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
 
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+            }
+
         }
         .p{
 
@@ -45,6 +51,12 @@
             /* white */
 
             color: #FFFFFF;
+
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+            }
 
         }
 
@@ -96,6 +108,13 @@
                 /* white */
                 color: #FFFFFF;
                 margin-bottom: 1rem;
+
+                @media (min-width: 768px){
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+               
             }
 
             li{
@@ -110,6 +129,12 @@
 
                 /* white */
                 color: #FFFFFF;
+
+                @media (min-width: 768px){
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                }
             }
         }
 
@@ -127,6 +152,13 @@
             /* identical to box height, or 24px */
             /* white */
             color: #FFFFFF;
+
+ 
+            @media (min-width: 768px){
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+            }
            }
 
             li{
@@ -147,7 +179,7 @@
                 color: #FFFFFF;
 
                 img{
-                    margin-right: .5rem;
+                    margin-right: .7rem;
                     
                 }
 
@@ -169,8 +201,14 @@
         }
     }
 
-    &__three{
+    hr{
         margin-top: 3rem;
+    }
+
+    &__three{
+        margin-top: 1rem;
+
+        
 
         @media (min-width: 768px){
             display: flex;
@@ -189,7 +227,7 @@
             /* white */
 
             color: #FFFFFF;
-            margin-top: 1rem;
+            margin-top: rem;
         }
 
         &-one{

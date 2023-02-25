@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero">
        <div className='hero__msg'>
-         <h4>Discover Africa</h4>
+         <h4>Discover <span> Africa </span></h4>
          <p>How do we preserve pieces of traditions foreign to us?</p>
        </div>
 

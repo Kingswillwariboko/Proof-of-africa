@@ -13,6 +13,7 @@ const Tribe = () => {
   const settings = {
     arrows: false,
     infinite: true,
+    fade: true,
     speed: 500,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -24,8 +25,8 @@ const Tribe = () => {
 
     <div className='tribe'>
       <Slider {...settings}>
-        <div className='tribe__main-one'>
-            <div>
+        <div className='tribe__main-one check-one'>
+            <div className="main">
                 <h4>The Tribal series</h4>
                 <p>Take a trip to the past</p>
                 <button>Connect with us</button>
@@ -36,8 +37,8 @@ const Tribe = () => {
             </div>
         </div>
 
-        <div className='tribe__main-one'>
-            <div>
+        <div className='tribe__main-one check-two'>
+            <div className="main">
                 <h4>Cultural Spaces</h4>
                 <p>An opportunity to uncover talented web3 artists cross chain</p>
                 <button> Connect with us</button>

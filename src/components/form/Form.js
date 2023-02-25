@@ -21,8 +21,9 @@ const Form = () => {
                 Fill the form below to register
                  for the POA cultural spaces</p>
 
+        <div className='main-box'>
         <div className='box'>
-            <div className='inp'>
+            <div className='inpp'>
                 <label>Phone number</label> 
                 <input
                         value=""
@@ -31,7 +32,7 @@ const Form = () => {
                     />
             </div>
 
-            <div className='inp'>
+            <div className='inpp'>
                 <label>Phone number</label> 
                 <input
                         value=""
@@ -42,7 +43,7 @@ const Form = () => {
         </div>
 
         <div className='box'>
-            <div className='inp'>
+            <div className='inpp'>
                 <label>Phone number</label> 
                 <input
                         value=""
@@ -51,7 +52,7 @@ const Form = () => {
                     />
             </div>
 
-            <div className='inp'>
+            <div className='inpp'>
                 <label>Phone number</label> 
                 <input
                         value=""
@@ -100,6 +101,9 @@ const Form = () => {
                 />
           </div>
           <button>Submit</button>
+        </div>
+
+        
         </form>
         
     </div>

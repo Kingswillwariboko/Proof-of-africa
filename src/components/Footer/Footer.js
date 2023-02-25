@@ -1,6 +1,9 @@
 import React from 'react'
 import proof from "../../assets/Proof of Africa negative w-tagline 2.svg"
 import fb from "../../assets/Vector.svg"
+import insta from "../../assets/insta.svg"
+import twitter from "../../assets/twitter.svg"
+import linkedin from "../../assets/linkedin.svg"
 
 import './footer.scss'
 
@@ -29,9 +32,9 @@ const Footer = () => {
                 <p>About Us</p>
 
                 <li>About Us</li>
-                <li>About Us</li>
-                <li>About Us</li>
-                <li>About Us</li>
+                <li>Projects</li>
+                <li>Discover Africa</li>
+                <li>Cultural spaces</li>
             </div>
 
             <div className='footer__two-two'>
@@ -42,16 +45,16 @@ const Footer = () => {
                     <span>Facebook</span>
                 </li>
                 <li>
-                    <img src={fb} alt=""/>
-                    <span>Facebook</span>
+                    <img src={insta} alt=""/>
+                    <span>Instagram</span>
                 </li>
                 <li>
-                    <img src={fb} alt=""/>
-                    <span>Facebook</span>
+                    <img src={twitter} alt=""/>
+                    <span>Twitter</span>
                 </li>
                 <li>
-                    <img src={fb} alt=""/>
-                    <span>Facebook</span>
+                    <img src={linkedin} alt=""/>
+                    <span>LinkedIn</span>
                 </li>
             </div>
         </div>
