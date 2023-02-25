@@ -14,13 +14,14 @@
         @media (min-width: 768px){
            display: flex;
            align-items: center;
-           padding-top: 1rem;
+           padding-top: rem;
+           margin-top: 2rem;
         }
         h4{
             font-family: 'Computer says no';
             font-style: normal;
             font-weight: 400;
-            font-size: 50px;
+            font-size: 45px;
             line-height: 50px;
             /* identical to box height, or 62% */
             /* white */
@@ -28,8 +29,8 @@
             span{
                 background: #FFDE59;
                 color: #FFFFFF;
-                padding: .3rem;
-                margin-top: 1rem;
+                padding: .2rem;
+                margin-top: 1.5rem;
             }
             @media (min-width: 768px){
                 width: 50%;
