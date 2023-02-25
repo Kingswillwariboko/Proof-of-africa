@@ -17,6 +17,7 @@
     &__one{
        
         p{
+            
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -38,11 +39,11 @@
             }
         }
         .p{
-
+           
             font-family: 'Work Sans';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 120%;
             /* or 17px */
 
@@ -79,6 +80,11 @@
                  border: 0;
                 border-bottom: 0.59375px solid #EAEAEA;
                 padding: 1rem;
+            }
+
+            input:focus{
+                outline: none;
+                border: none;
             }
 
             button{
@@ -124,12 +130,13 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 12px;
+                font-size: 10px;
                 line-height: 150%;
                 /* identical to box height, or 21px */
 
                 /* white */
                 color: #FFFFFF;
+                
 
                 @media (min-width: 768px){
                     font-weight: 400;
@@ -170,7 +177,7 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 12px;
+                font-size: 10px;
                 line-height: 150%;
                 /* identical to box height, or 21px */
 
@@ -188,14 +195,11 @@
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 14px;
+                    font-size: 10px;
                     line-height: 150%;
-                    /* identical to box height, or 21px */
-
-
-                    /* white */
-
+                   
                     color: #FFFFFF;
+                    
 
                 }
             }
