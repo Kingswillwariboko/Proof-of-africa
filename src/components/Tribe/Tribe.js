@@ -44,9 +44,7 @@ const Tribe = () => {
                 <button> Connect with us</button>
             </div>
            
-            <div className='img'>
-                <img src={group} alt=""/>
-            </div>
+           
         </div>
         </Slider>
     </div>
