@@ -13,7 +13,6 @@ const Footer = () => {
         <div className="foot">
         <div className='footer__one'>
             <img src={proof} alt=""/>
-
             <p>Join our newsletter to stay up to date on features and releases.</p>
             <form>
                 <input
@@ -30,7 +29,6 @@ const Footer = () => {
         <div className='footer__two'>
             <div className='footer__two-one'>
                 <p>About Us</p>
-
                 <li>About Us</li>
                 <li>Projects</li>
                 <li>Discover Africa</li>
