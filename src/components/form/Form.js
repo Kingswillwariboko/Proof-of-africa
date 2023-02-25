@@ -112,14 +112,13 @@ const Form = () => {
 
             <div className='inpp'>
                 <label>options</label> 
-
                 <div 
                 className="dropdown"
                 tabIndex="0"
                 onBlur={() => setIsOpen(false)}
                 onFocus={() => setIsOpen(true)}>
                 <input
-                        type="text"
+                        type="dropdown"
                         placeholder="Select an option"
                         value={selectedOption}
                         onChange={(e) => setSelectedOption(e.target.value)}

@@ -1,6 +1,6 @@
 .hero{
     padding: 1rem;
-    height: 50vh;
+    height: 80vh;
     background-image: url(../../assets/background.jpeg);
     background-size: cover;
     background-position: center;
@@ -10,6 +10,7 @@
        padding: 3rem;
      }
     &__msg{
+        margin-top: 5rem;
         @media (min-width: 768px){
            display: flex;
            align-items: center;
@@ -66,7 +67,7 @@
     &__btn{
         position: absolute;
         right: 20%;
-        top: 40%;
+        top: 60%;
         
         @media (min-width: 768px){
             top: 70%;
