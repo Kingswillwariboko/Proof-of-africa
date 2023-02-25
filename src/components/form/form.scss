@@ -93,13 +93,14 @@
         border-radius: 8px;
         padding: 2rem;
         margin-top: -7rem;
+        padding-left: 7rem;
        
 
         .main-box{
             
             @media (min-width: 768px){
                 
-                width: 50%;
+                width: 60%;
             }
         }
 
@@ -155,6 +156,8 @@
                 font-size: 20px;
                 line-height: 30px;  
                 margin-top: .5rem;
+                width: 60%;
+                margin-top: 1rem;
               }
         }
 
