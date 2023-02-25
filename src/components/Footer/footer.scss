@@ -15,6 +15,7 @@
     }
 
     &__one{
+       
         p{
             font-style: normal;
             font-weight: 400;
@@ -35,7 +36,6 @@
                 font-size: 20px;
                 line-height: 30px;
             }
-
         }
         .p{
 
@@ -93,6 +93,7 @@
         }
     }
     &__two{
+        
         margin-top: 1rem;
         display: flex;
         align-items: center;
@@ -102,7 +103,7 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 150%;
                 /* identical to box height, or 24px */
                 /* white */
@@ -123,7 +124,7 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 12px;
                 line-height: 150%;
                 /* identical to box height, or 21px */
 
@@ -147,7 +148,7 @@
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 600;
-            font-size: 16px;
+            font-size: 14px;
             line-height: 150%;
             /* identical to box height, or 24px */
             /* white */
@@ -169,7 +170,7 @@
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 12px;
                 line-height: 150%;
                 /* identical to box height, or 21px */
 
@@ -219,13 +220,10 @@
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 150%;
             /* identical to box height, or 21px */
-
-
             /* white */
-
             color: #FFFFFF;
             margin-top: rem;
         }
@@ -234,7 +232,6 @@
             margin-top: .5rem;
             display: flex;
             align-items: center;
-            
             p{
                 margin-right: 1rem;
                 margin-top: .3rem;
