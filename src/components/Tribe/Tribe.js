@@ -43,8 +43,6 @@ const Tribe = () => {
                 <p>An opportunity to uncover talented web3 artists cross chain</p>
                 <button> Connect with us</button>
             </div>
-           
-           
         </div>
         </Slider>
     </div>
