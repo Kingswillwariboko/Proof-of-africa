@@ -42,56 +42,58 @@ const Sliderr = () => {
       };
 
   return (
+    <div className='main-slider'>
     <div className='slider'>
 
-        <div className='slider__menu'>
+        <div className='slider__menu mobile'>
         <Slider {...settings}>
             <div className='slider__menu-one'>
-                <div  onClick={()=>  setCurrentIndex(0)} className='chk'>
+                <div  onClick={()=>  setCurrentIndex(0)} className={currentIndex === 0 ? "chk": 'style'}>
                     <img src={avatar} alt=""/>
                     <p>The Kikuyu Tribe</p>
                 </div>
             </div>
             <div  onClick={()=>  setCurrentIndex(1)}className='slider__menu-one'>
-                <div className='chk'>
+                <div className={currentIndex === 1 ? "chk": 'style'}>
                     <img src={avatar} alt=""/>
-                    <p>The Kikuyu Tribe</p>
+                    <p>The Maasai Tribe</p>
                 </div>
             </div>
             <div  onClick={()=>  setCurrentIndex(2)} className='slider__menu-one'>
-                <div className='chk'>
+                <div className={currentIndex === 2 ? "chk": 'style'}>
                     <img src={avatar} alt=""/>
-                    <p>The Kikuyu Tribe</p>
+                    <p>The Igbo Tribe</p>
                 </div>
             </div>
         </Slider>
-        </div>
+        </div >
 
-        <div className="carousel-container">
-        {datas.map((data)=>{
-           const {title, description} = data
-            return  <div 
-            style={{transform: `translate(-${currentIndex * 100}%)`}} className='slider__main carousel-item'>
-                <div className='mmain'>
-                    <div className='slider__main-one'>
-                    <h5>{title}</h5>
-                    <p>{description}</p>
-                </div>
+      
+            
+                <div className="carousel-container">
+                {datas.map((data)=>{
+                const {title, description} = data
+                    return  <div 
+                    style={{transform: `translate(-${currentIndex * 100}%)`}} className='slider__main carousel-item'>
+                        <div className='mmain'>
+                            <div className='slider__main-one'>
+                            <h5>{title}</h5>
+                            <p>{description}</p>
+                        </div>
 
-                <div className='slider__main-one'>
-                    <h5>{title}</h5>
-                    <p>{description}</p>
+                        <div className='slider__main-one'>
+                            <h5>{title}</h5>
+                            <p>{description}</p>
+                        </div>
+                        <div className='slider__main-one'>
+                            <h5>{title}</h5>
+                            <p>{description}</p>
+                        </div>
+                        </div>
                 </div>
-                <div className='slider__main-one'>
-                    <h5>{title}</h5>
-                    <p>{description}</p>
+        })}
                 </div>
-                </div>
-        </div>
-})}
-        </div>
-
-       
+        </div>   
     </div>
   )
 }
