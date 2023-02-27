@@ -1,5 +1,6 @@
 import React from 'react'
 import africa from "../../assets/7320 1.svg"
+import Sliderr from '../Slider.js/Slider'
 
 import "./carousel.scss"
 
@@ -22,6 +23,8 @@ const Carousel = () => {
             <div className='carousel__tribe-two'>
                 <img src={africa} alt="" />
             </div>
+
+            <Sliderr />
         </div>
     </div>
   )
