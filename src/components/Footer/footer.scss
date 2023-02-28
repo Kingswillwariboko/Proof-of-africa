@@ -3,10 +3,10 @@
     background-color: #000000;
 
     @media (min-width: 768px){
-        padding: 3rem;
+        
         width: 100%;
         margin: 0 auto;
-        max-width: 1410px;
+        max-width: 1440px;
     }
 
     .foot{
@@ -251,6 +251,8 @@
 
 .maxxx{
     background-color: #000000;
-
+    @media (min-width: 768px){
+        padding: 3rem;
+    }
    
 }

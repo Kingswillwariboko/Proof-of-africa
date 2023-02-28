@@ -85,6 +85,7 @@
     background-color: #000000;
     margin-top: 10rem;
     padding: 1rem;
+
     
     @media (min-width: 768px){
        padding: 3rem;
@@ -95,19 +96,23 @@
         border-radius: 8px;
         padding: 2rem;
         margin-top: -7rem;
-        
 
         @media (min-width: 768px){
             padding-left: 7rem;
             width: 100%;
         }
-       
-
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            padding-left: 2rem;
+            padding-right: 2rem;
+         }
         .main-box{
             
             @media (min-width: 768px){
                 
                 width: 60%;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               width: 100%;
             }
         }
 
@@ -144,6 +149,10 @@
                 font-size: 4rem;
                 line-height: 68px;     
               }
+
+              @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                text-align: center;
+             }
         }
 
         p{
@@ -166,6 +175,11 @@
                 width: 60%;
                 margin-top: 1rem;
               }
+
+              @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                text-align: center;
+                width: 100%;
+             }
         }
 
         .inp{

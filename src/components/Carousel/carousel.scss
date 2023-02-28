@@ -10,8 +10,12 @@
         margin-bottom: 9rem;
         width: 100%;
         margin: 0 auto;
-        max-width: 1410px;
+        max-width: 1440px;
      }
+     @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+        height: 700px;
+    }
 
     &__tribe{
         margin-top: 4rem;
@@ -19,11 +23,20 @@
                 display: flex;
         }
 
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+            
+            align-items: flex-start;
+        }
+
         &-one{
             @media (min-width: 768px){
                 width: 50%;
                 margin-top: 8rem;
              }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                
+                margin-top: 0;
+            }
         }
         h3{
             font-family: 'Computer says no';
@@ -44,6 +57,10 @@
                 font-size: 4rem;
                 line-height: 68px;
              }
+
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 2.3rem;
+            }
         }
 
         p{
@@ -72,6 +89,10 @@
                 letter-spacing: -0.04em;
                 width: 75%;
              }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               font-size: 14px;
+               line-height: 20px;
+            }
 
         }
 
@@ -81,24 +102,29 @@
             @media (min-width: 768px){
                 width: 40%;
              }
+             @media only screen and (min-width: 768px) and (max-width: 1023px) {
+               margin-top: 0;
+               width: 50%;
+             }
 
             img{
                 @media (min-width: 768px){
                     width: 100%;
                  }
+                
             }
         }
     }
 
     &__main{
-        border: 2px solid green;
+        
         display: none;
         position: absolute;
         background: #FFFFFF;
         border: 2px solid #000000;
         border-radius: 12px;
         top: 60%;
-        width: 80%;
+        width: 90%;
         justify-content: space-between;
         padding: 4rem;
         left: 45%;
@@ -107,6 +133,11 @@
         @media (min-width: 768px){
             display: flex;
         }
+        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+           
+            top: 52%;
+            padding: 1rem;
+          }
 
         &-item{
             background: #FFDE59;
@@ -147,6 +178,9 @@
             img{
                 margin-right: .5rem;
             }
+            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                font-size: 15px;
+              }
         }
 
         .data{
@@ -165,4 +199,10 @@
     @media (min-width: 768px){
         margin-bottom: 9rem;
 }
+}
+.buttons{
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+        
+      }
 }

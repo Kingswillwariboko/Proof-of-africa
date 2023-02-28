@@ -56,7 +56,7 @@ const Carousel = () => {
 
 
         <div className='carousel__main'>
-          <div>
+          <div className="buttons">
             <div onClick={()=>  setCurrentIndex(0)} className={currentIndex === 0 ? "carousel__main-item" : 'style'}>
                     <div className='inner'>
                         <img src={avatar} alt=""/>
