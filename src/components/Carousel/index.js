@@ -33,9 +33,9 @@ const Carousel = () => {
 
 
   return (
+    <div className="maxy">
     <div className='carousel'>
         <div className='carousel__tribe'>
-
             <div className='carousel__tribe-one'>
                 <h3>The Tribal Series</h3>
 
@@ -101,6 +101,7 @@ const Carousel = () => {
                 </div>
                 })}
                 </div>
+          </div>
           </div>
     </div>
   )

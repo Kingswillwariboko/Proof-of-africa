@@ -26,23 +26,28 @@ const Tribe = () => {
     <div className='tribe'>
       <Slider {...settings}>
         <div className='tribe__main-one check-one'>
+          <div className='maxx'>
             <div className="main">
-                <h4>The Tribal series</h4>
-                <p>Take a trip to the past</p>
-                <button>Connect with us</button>
-            </div>
+                  <h4>The Tribal series</h4>
+                  <p>Take a trip to the past</p>
+                  <button>Connect with us</button>
+              </div>
+            
+              <div className='img'>
+                  <img src={group} alt=""/>
+              </div>
+          </div>
            
-            <div className='img'>
-                <img src={group} alt=""/>
-            </div>
         </div>
 
         <div className='tribe__main-one check-two'>
-            <div className="main">
-                <h4 className='h4'>Cultural Spaces</h4>
-                <p>An opportunity to uncover talented web3 artists cross chain</p>
-                <button> Connect with us</button>
-            </div>
+          <div className='maxx'>
+              <div className="main">
+                    <h4 className='h4'>Cultural Spaces</h4>
+                    <p>An opportunity to uncover talented web3 artists cross chain</p>
+                    <button> Connect with us</button>
+                </div>
+          </div>
         </div>
         </Slider>
     </div>

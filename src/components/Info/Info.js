@@ -5,6 +5,7 @@ import './Info.scss'
 
 const Info = () => {
   return (
+    <div className='max'>
     <div className='info'>
       <div className='info__one'>
         <div className='info__one-msg'>
@@ -56,6 +57,7 @@ const Info = () => {
                   Connect On Twitter</p>
           </div>
           </div>
+      </div>
       </div>
     </div>
   )

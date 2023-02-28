@@ -9,12 +9,14 @@ import "./header.scss"
 const Header = () =>{
     return(
         <div className="header">
-            <div className="header__logo">
-                <img src={logo} alt=""/>
-            </div>
+            <div className="max">
+                <div className="header__logo">
+                    <img src={logo} alt=""/>
+                </div>
 
-            <div className="header__menu">
-                <img src={menu} alt=""/>
+                <div className="header__menu">
+                    <img src={menu} alt=""/>
+                </div>
             </div>
         </div>
     )

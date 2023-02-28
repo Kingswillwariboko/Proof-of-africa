@@ -1,5 +1,5 @@
 .carousel{
-    background-color: #000000;
+   
     padding: 1rem;
     position: relative;
 
@@ -8,6 +8,9 @@
         height: 900px;
         padding-top: 1rem;
         margin-bottom: 9rem;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1410px;
      }
 
     &__tribe{
@@ -88,13 +91,14 @@
     }
 
     &__main{
+        border: 2px solid green;
         display: none;
         position: absolute;
         background: #FFFFFF;
         border: 2px solid #000000;
         border-radius: 12px;
         top: 60%;
-        width: 90%;
+        width: 80%;
         justify-content: space-between;
         padding: 4rem;
         left: 45%;
@@ -153,4 +157,12 @@
             border-radius: 12px;
         }
     }
+}
+
+.maxy{
+    background-color: #000000;
+    
+    @media (min-width: 768px){
+        margin-bottom: 9rem;
+}
 }

@@ -111,15 +111,18 @@ const Form = () => {
      {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
             <Modal /></div>}
     <div className='form'>
+      <div className='max'>
         <div className='form__header'>
             <h4>New to spaces?</h4>
             <p>Space tip - Introduce yourself culturally, then share, collab and connect</p>
 
             <button>I’m an artist</button>
         </div>
+        </div>
     </div>
 
     <div className='formm'>
+      <div className='max'>
         <form onSubmit={handleSubmit}>
             <h4>Hello Creator</h4>
             <p>Tell us more abut yourself. 
@@ -222,7 +225,7 @@ const Form = () => {
           <button type="submit">Submit</button>
         </div>
         </form>
-        
+        </div>
     </div>
     </>
   )

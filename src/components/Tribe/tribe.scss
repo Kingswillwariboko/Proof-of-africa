@@ -127,3 +127,15 @@
         margin: 3rem
      }
 }
+
+.maxx{
+    @media (min-width: 768px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1410px;
+     }
+    
+}

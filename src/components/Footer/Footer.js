@@ -9,7 +9,9 @@ import './footer.scss'
 
 const Footer = () => {
   return (
+    <div className='maxxx'>
     <div className='footer'>
+       
         <div className="foot">
         <div className='footer__one'>
             <img src={proof} alt=""/>
@@ -69,6 +71,7 @@ const Footer = () => {
                 <p>Terms of Service</p>
                 <p>Cookies Settings</p>
             </div>
+        </div>
         </div>
     </div>
   )

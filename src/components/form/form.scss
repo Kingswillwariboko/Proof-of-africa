@@ -4,6 +4,8 @@
     @media (min-width: 768px){
        padding: 3rem;
        margin-top: 4rem;
+       padding-left: 0;
+       padding-right: 0;
     }
     &__header{
         @media (min-width: 768px){
@@ -97,6 +99,7 @@
 
         @media (min-width: 768px){
             padding-left: 7rem;
+            width: 100%;
         }
        
 
