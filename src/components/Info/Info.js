@@ -39,7 +39,7 @@ const Info = () => {
                   <p>Tai Mei</p>
               </div>
 
-              <p>An accomplished Taiwanese artist and photographer whose bespoke photography project 
+              <p className="pp">An accomplished Taiwanese artist and photographer whose bespoke photography project 
                 ‘La Tei Mei La Resistance’
                  captures her own experiences and emotions as a woman, artist and Taiwanese.
                   Connect On Twitter</p>
@@ -51,7 +51,7 @@ const Info = () => {
                   <p>Tai Mei</p>
               </div>
 
-              <p>An accomplished Taiwanese artist and photographer whose bespoke photography project 
+              <p className="pp">An accomplished Taiwanese artist and photographer whose bespoke photography project 
                 ‘La Tei Mei La Resistance’
                  captures her own experiences and emotions as a woman, artist and Taiwanese.
                   Connect On Twitter</p>

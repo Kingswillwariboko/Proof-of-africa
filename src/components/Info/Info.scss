@@ -188,6 +188,7 @@
                         font-weight: 700;
                         font-size: 2rem;
                         line-height: 120%;
+
                       }
                 }
             }
@@ -208,7 +209,7 @@
                     font-weight: 400;
                     font-size: 20px;
                     line-height: 40px;
-                    /* or 200% */
+                   
 
                     letter-spacing: -0.04em;
                   }
@@ -228,4 +229,8 @@
         display: block;
         width: 100%;
     }
+}
+
+.pp{
+    text-align: left;
 }

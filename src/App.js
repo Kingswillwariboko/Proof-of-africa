@@ -18,7 +18,6 @@ function App() {
       <Info />
       <Form />
       <Footer />
-
       {/* <Modal /> */}
     </div>
   );

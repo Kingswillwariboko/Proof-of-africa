@@ -87,16 +87,23 @@ const Carousel = () => {
                             <div  className='slider__main-one'>
                             <h5>{title}</h5>
                             <p>{description}</p>
+
+                            <a>read more</a>
                         </div>
 
                         <div  className='slider__main-one'>
                             <h5>{title}</h5>
                             <p>{description}</p>
+
+                            <a>read more</a>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{title}</h5>
                             <p>{description}</p>
+
+                            <a>read more</a>
                         </div>
+                       
                         </div>
                 </div>
                 })}
