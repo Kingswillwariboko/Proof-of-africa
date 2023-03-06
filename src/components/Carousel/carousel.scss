@@ -189,6 +189,9 @@
             padding: 1rem;
             border: 2px solid #000000;
             border-radius: 12px;
+            @media (min-width: 768px){
+                height: 430px;
+        }
         }
     }
 }
@@ -223,4 +226,9 @@ text-decoration-line: underline;
 color: #000000;
 
 
+}
+.slider__main-one{
+    @media (min-width: 768px){
+        height: 114px;
+}
 }

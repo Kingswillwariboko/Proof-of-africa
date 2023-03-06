@@ -80,9 +80,9 @@ const Form = () => {
       selectedOption
    }).then(()=>{
        setShowModal(true)
-       setTimeout(() => {
-         setShowModal(false)
-         }, 5000); 
+      //  setTimeout(() => {
+      //    setShowModal(false)
+      //    }, 5000); 
    }).catch((error)=>{
       alert(error.message)
    })
@@ -105,11 +105,15 @@ const Form = () => {
     </li>
   ));
 
+  const closeModal = () =>{
+    setShowModal(false)
+  }
+
 
   return (
     <>
-     {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
-            <Modal /></div>}
+     
+           
     <div className='form'>
       <div className='max'>
         <div className='form__header'>
@@ -123,6 +127,11 @@ const Form = () => {
 
     <div className='formm'>
       <div className='max'>
+      {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
+      <div className='form-modal'>
+      <Modal showModal={closeModal} />
+      </div> </div>}
+      
         <form onSubmit={handleSubmit}>
             <h4>Hello Creator</h4>
             <p>Tell us more abut yourself. 

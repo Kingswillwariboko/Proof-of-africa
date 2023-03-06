@@ -87,6 +87,9 @@
   }
   
   @media screen and (max-width: 1023px) {
+    .poa__navbar {
+      padding: 1rem;
+    }
     .poa__navbar-links_container {
     display: none;
     }
@@ -100,6 +103,7 @@
       width: 343px;
       height: 48px;
     }
+   
   }
 
 
