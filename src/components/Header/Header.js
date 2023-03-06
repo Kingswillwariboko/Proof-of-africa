@@ -19,6 +19,7 @@ const Menu = () => (
 const Header = () =>{
     const [toggleMenu, setToggleMenu] = useState(false);
     return(
+      <div className="max">
         <div className="poa__navbar">
       <div className="poa__navbar-links">
         <div className="poa__navbar-links_logo">
@@ -43,6 +44,7 @@ const Header = () =>{
           </div>
         )}
       </div>
+    </div>
     </div>
     )
 }
