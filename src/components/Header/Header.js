@@ -17,8 +17,7 @@ const Menu = () => {
     <>
     <li><a href="#about">About Us</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li onClick={toggleAccordion}>
-          Accordion
+    <li onClick={toggleAccordion}> <a>Accordion</a>
           {accordionOpen ? (
             <ul>
               <li>Accordion Item 1</li>
