@@ -57,6 +57,7 @@
             border-radius: 8px;
             margin-top: 1rem;
             padding: 1rem;
+            height: 200px;
            
 
             h5{
@@ -66,12 +67,8 @@
                 font-size: 14px;
                 line-height: 100%;
                 /* identical to box height, or 14px */
-
-
                 /* Black */
-
                 color: #000000;
-
             }
             p{
                 font-family: 'Work Sans';
@@ -80,13 +77,14 @@
                 font-size: 14px;
                 line-height: 120%;
                 /* or 17px */
-
                 letter-spacing: -0.04em;
-
                 /* Black */
-
                 color: #000000;
             }
+
+           a{
+            text-align: left;
+           }
         }
     }
 }
@@ -104,15 +102,17 @@
         min-width: 100%;
         width: 80%;
         transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+        
     }
 }
 .mmain{
         background: #FFDE59;
-        border: 1px solid #000000;
+        border: 1px solid #201c1c;
         border-radius: 12px;
         padding: 1rem;
         margin-top: 2rem;
-        margin-right: 1rem;
+        margin-right: 1rem;height: 690px;
+
 
         @media (min-width: 768px){
            display: none;
