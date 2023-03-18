@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Hero from "./components/Hero/Hero"
 import Info from './components/Info/Info';
 import Modal from './components/Modal/Modal';
+import { Element } from 'react-scroll';
 import Tribe from './components/Tribe/Tribe';
 
 function App() {
@@ -15,7 +16,10 @@ function App() {
       <Hero />
       <Tribe />
       <Carousel />
-      <Info />
+      <Element name="features-section">
+        <Info />
+      </Element>
+      
       <Form />
       <Footer />
       {/* <Modal /> */}

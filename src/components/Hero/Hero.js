@@ -1,9 +1,18 @@
 import React from 'react'
 import btn from "../../assets/a.svg"
-
+import { Link } from 'react-scroll';
+// import { useNavigation } from 'react-router-dom';
 import "./Hero.scss"
 
 const Hero = () => {
+  // const history = useHistory()
+
+  // const scrollToFeatures = () => {
+  //   // const featuresSection = document.querySelector('#features');
+  //   // featuresSection.scrollIntoView({ behavior: 'smooth' });
+  //   // history.push('/features');
+  // }
+
   return (
     <div className="hero">
       <div className='max'>
@@ -12,9 +21,15 @@ const Hero = () => {
           <p>How do we preserve pieces of traditions foreign to us?</p>
         </div>
 
-        <div className='hero__btn'>
+        <Link
+        to="features-section"
+        smooth={true}
+        duration={500}
+      >
+        <button className='hero__btn'>
           <img src={btn} alt=""/>
-       </div>
+       </button>
+       </Link>
       </div>
     </div>
   )
