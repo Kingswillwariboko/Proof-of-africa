@@ -10,7 +10,8 @@ const datas =[
     {
       first : {
             title:"Part 1: A Look into History",
-            description: "The Kikuyu also known as the 'Gikuyu' people ar the first Bantu ethnic group native to Central Kenya, who undertook the anti-colonial agitation in the 1920s. They believe in..."
+            description: "The Kikuyu also known as the 'Gikuyu' people ar the first Bantu ethnic group native to Central Kenya, who undertook the anti-colonial agitation in the 1920s. They believe in...",
+            link: "https://twitter.com/poapool/status/1584908056709808130?t=3EupSz5Z0yY_YeZQvWGbIg&s=19"
         },
       second:   {
             title:"Part 1: A Look into History",
@@ -24,7 +25,8 @@ const datas =[
     {
         first : {
               title:"Part 1: A Look into History",
-              description: "The Maasai also known as the 'maa' people were a monotheistic dominating tribe at the beginning of 20th century. They are one of the very few..."
+              description: "The Maasai also known as the 'maa' people were a monotheistic dominating tribe at the beginning of 20th century. They are one of the very few...",
+              link: "https://twitter.com/poapool/status/1580575607465078784?t=hzWW-YW9lrFiK9qoJoCfrQ&s=19"
           },
         second:   {
               title:"Part 1: A Look into History",
@@ -39,7 +41,8 @@ const datas =[
       {
         first : {
               title:"Part 1: A Look into History",
-              description: "The Igbo people (Ndi Igbo) are an ethnic group known for their metalworking art that flourished as early as the ninth century. Theocratic in nature, spirituality played a…"
+              description: "The Igbo people (Ndi Igbo) are an ethnic group known for their metalworking art that flourished as early as the ninth century. Theocratic in nature, spirituality played a…",
+              link: "https://twitter.com/poapool/status/1590745977220370432?s=20&t=hEpB5dSObxX1pc6wQuKTgQ"
           },
         second:   {
               title:"Part 1: A Look into History",
@@ -99,10 +102,7 @@ const Sliderr = () => {
                 </div>
             </div>
         </Slider>
-        </div >
-
-      
-            
+        </div>
                 <div className="carousel-container">
                 {datas.map((data)=>{
                     return  <div 
@@ -111,29 +111,26 @@ const Sliderr = () => {
                             <div className='slider__main-one'>
                             <h5>{data.first.title}</h5>
                             <p>{data.first.description}</p>
-                            <div>
-                                <a href="">
+                            <div className='button'>
                                     <p>read more</p>
-                                </a>
+                                    {/* <img src={arrow} alt=""/> */}
                             </div>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{data.second.title}</h5>
                             <p>{data.second.description}</p>
 
-                            <div>
-                                <a href="">
+                            <div className='button'>
                                     <p>read more</p>
-                                </a>
+                                    {/* <img src={arrow} alt=""/> */}
                             </div>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{data.third.title}</h5>
                             <p>{data.third.description}</p>
-                            <div>
-                                <a href="">
+                            <div className='button'>
                                     <p>read more</p>
-                                </a>
+                                    {/* <img src={arrow} alt=""/> */}
                             </div>
                         </div>
                         </div>

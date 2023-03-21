@@ -57,7 +57,7 @@
             border-radius: 8px;
             margin-top: 1rem;
             padding: 1rem;
-            height: 200px;
+            height: 40vh;
            
 
             h5{
@@ -74,17 +74,20 @@
                 font-family: 'Work Sans';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 14px;
+                font-size: 14px !important;
                 line-height: 120%;
                 /* or 17px */
                 letter-spacing: -0.04em;
                 /* Black */
                 color: #000000;
+                
             }
 
-           a{
-            text-align: left;
-           }
+          .button{
+            
+            display: flex;
+            align-items: center !important;
+          }
         }
     }
 }
@@ -111,7 +114,7 @@
         border-radius: 12px;
         padding: 1rem;
         margin-top: 2rem;
-        margin-right: 1rem;height: 690px;
+        margin-right: 1rem;
 
 
         @media (min-width: 768px){
