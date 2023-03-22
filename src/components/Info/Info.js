@@ -2,6 +2,8 @@ import React from 'react'
 import hosts from "../../assets/Group 3618.svg"
 import avatar from "../../assets/Ellipse 7.svg"
 import avata from "../../assets/Ellipse 7 (1).svg"
+import { Link } from 'react-router-dom'
+
 import './Info.scss'
 
 const Info = () => {
@@ -43,7 +45,7 @@ const Info = () => {
               <p className="pp">An accomplished Taiwanese artist and photographer whose bespoke photography project 
                 ‘La Tei Mei La Resistance’
                  captures her own experiences and emotions as a woman, artist and Taiwanese.
-                  Connect On Twitter</p>
+                 <Link to={{ pathname: `https://twitter.com/taimei_886` }} target="_blank">Connect On Twitter</Link></p>
           </div>
 
           <div className="info__two-main">
@@ -51,10 +53,10 @@ const Info = () => {
                   <img src={avata} alt=""/>
                   <p>Nkesi</p>
               </div>
-
+              
               <p className="pp">A community builder at heart and a speaker with a passion for onboarding
-               people into the web3 space; Zoepool Co-host, Nkesi is excited about bringing people who 
-              share an enthusiasm for Culture and Arts together in this space. Connect On Twitter</p>
+               people into the web3 space; <Link to={{ pathname: `https://twitter.com/zoepoolz` }} target="_blank"> Zoepool Co-host</Link>, Nkesi is excited about bringing people who 
+              share an enthusiasm for Culture and Arts together in this space. <Link to={{ pathname: `https://twitter.com/Nkesi_x` }} target="_blank">Connect On Twitter</Link></p>
           </div>
           </div>
       </div>
