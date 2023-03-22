@@ -1,6 +1,7 @@
 import React from 'react'
 import hosts from "../../assets/Group 3618.svg"
 import avatar from "../../assets/Ellipse 7.svg"
+import avata from "../../assets/Ellipse 7 (1).svg"
 import './Info.scss'
 
 const Info = () => {
@@ -47,14 +48,13 @@ const Info = () => {
 
           <div className="info__two-main">
               <div className='check'>
-                  <img src={avatar} alt=""/>
-                  <p>Tai Mei</p>
+                  <img src={avata} alt=""/>
+                  <p>Nkesi</p>
               </div>
 
-              <p className="pp">An accomplished Taiwanese artist and photographer whose bespoke photography project 
-                ‘La Tei Mei La Resistance’
-                 captures her own experiences and emotions as a woman, artist and Taiwanese.
-                  Connect On Twitter</p>
+              <p className="pp">A community builder at heart and a speaker with a passion for onboarding
+               people into the web3 space; Zoepool Co-host, Nkesi is excited about bringing people who 
+              share an enthusiasm for Culture and Arts together in this space. Connect On Twitter</p>
           </div>
           </div>
       </div>
@@ -62,7 +62,6 @@ const Info = () => {
     </div>
   )
 }
-
 export default Info
 
 

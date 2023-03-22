@@ -3,6 +3,7 @@
 
     @media (min-width: 768px){
        padding: 3rem;
+       margin-bottom: 2rem;
     }
    
 
@@ -124,6 +125,14 @@
                text-align: center;
                margin-top: 4rem;
                margin-bottom: 1rem;
+               font-style: normal;
+                font-weight: 400;
+                font-size: 104px;
+                line-height: 68px;
+                /* identical to box height, or 65% */
+
+                text-align: center;
+                text-transform: capitalize;
              }
             margin-top: 1rem;
             font-family: 'Computer says no';
@@ -170,6 +179,10 @@
                
                 img{
                     margin-right: .5rem;
+                    @media (min-width: 768px){
+                        width: 10%;
+                       
+                      }
                 }
 
                 p{
