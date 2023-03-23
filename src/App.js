@@ -1,28 +1,16 @@
 import './App.scss';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer/Footer';
-import Form from './components/form/Form';
-import Header from './components/Header/Header';
-import Hero from "./components/Hero/Hero"
-import Info from './components/Info/Info';
-import Modal from './components/Modal/Modal';
-import { Element } from 'react-scroll';
-import Tribe from './components/Tribe/Tribe';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Tribe />
-      <Carousel />
-      <Element name="features-section">
-        <Info />
-      </Element>
-      
-      <Form />
-      <Footer />
-      {/* <Modal /> */}
+    <div>
+      <Routes>
+        <Route 
+        path="/"
+        exact
+        element={<Home />}/>
+      </Routes>
     </div>
   );
 }
