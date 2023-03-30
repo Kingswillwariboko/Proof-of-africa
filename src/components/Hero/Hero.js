@@ -1,18 +1,10 @@
 import React from 'react'
 import btn from "../../assets/a.svg"
 import { Link } from 'react-scroll';
-// import { useNavigation } from 'react-router-dom';
 import "./Hero.scss"
 
 const Hero = () => {
-  // const history = useHistory()
-
-  // const scrollToFeatures = () => {
-  //   // const featuresSection = document.querySelector('#features');
-  //   // featuresSection.scrollIntoView({ behavior: 'smooth' });
-  //   // history.push('/features');
-  // }
-
+ 
   return (
     <div className="hero">
       <div className='max'>

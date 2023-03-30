@@ -132,15 +132,11 @@
         }
 
         .box{
-           
-
             @media (min-width: 768px){
                 display: flex;
-            align-items: center;
-            
-            width: 100%;
-            
-            justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                justify-content: space-between;
             }
         }
 
