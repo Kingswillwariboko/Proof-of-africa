@@ -148,7 +148,7 @@
             justify-content: center;
             padding: .5rem;
             margin-left: .5rem;
-            width: 100%;
+            width: 110%;
             margin-top: .5rem;
             border: 2px solid #000000;
         }
@@ -162,7 +162,7 @@
             justify-content: center;
             padding: .5rem;
             margin-left: .5rem;
-            width: 100%;
+            width: 110%;
             margin-top: .5rem;
             border: 2px solid #000000;
         }
@@ -173,10 +173,12 @@
             font-family: 'Work Sans';
             font-style: normal;
             font-weight: 600;
-            font-size: 25px;
+            font-size: 20px;
             color: #000000;
             img{
                 margin-right: .5rem;
+                width: 20%;
+                
             }
             @media only screen and (min-width: 768px) and (max-width: 1023px) {
                 font-size: 15px;
