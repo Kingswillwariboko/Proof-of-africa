@@ -13,7 +13,7 @@ function Accordion({ title, children }) {
   return (
     <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
-        <h3>{title}</h3> 
+        <p>{title}</p> 
         {isOpen ? (
             <img src={down} alt=""/>
         ) : (
