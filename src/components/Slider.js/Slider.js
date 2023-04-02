@@ -83,8 +83,8 @@ const Sliderr = () => {
 
         <div className='slider__menu mobile'>
         <Slider {...settings}>
-            <div className='slider__menu-one'>
-                <div  onClick={()=>  setCurrentIndex(0)} className={currentIndex === 0 ? "chk": 'style'}>
+            <div className='slider__menu-one'  onClick={()=>  setCurrentIndex(0)}>
+                <div className={currentIndex === 0 ? "chk": 'style'}>
                     <img src={avatar} alt=""/>
                     <p>The Kikuyu Tribe</p>
                 </div>
