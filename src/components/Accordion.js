@@ -1,17 +1,35 @@
-import React, { useState } from "react";
+
 import down from "./../assets/Chevron Down.svg"
 
 import "./accordion.scss"
+import { useState, useRef, useEffect } from "react";
 
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
+  const containerRef = useRef(null);
 
   const toggleAccordion = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    if (isOpen) {
+      window.addEventListener("click", handleOutsideClick);
+    }
+
+    return () => {
+      window.removeEventListener("click", handleOutsideClick);
+    };
+  }, [isOpen]);
+
   return (
-    <div className="accordion">
+    <div className="accordion" ref={containerRef}>
       <div className="accordion-header" onClick={toggleAccordion}>
         <p>{title}</p> 
         {isOpen ? (
@@ -26,3 +44,4 @@ function Accordion({ title, children }) {
 }
 
 export default Accordion;
+
