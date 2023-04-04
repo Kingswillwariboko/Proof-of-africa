@@ -1,8 +1,7 @@
 
 import down from "./../assets/Chevron Down.svg"
-
 import "./accordion.scss"
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useReducer } from "react";
 
 function Accordion({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
