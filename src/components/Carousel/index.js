@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import africa from "../../assets/7320 1.svg"
 import Sliderr from '../Slider.js/Slider'
-import avatar from "../../assets/Frame.svg"
+import avatar from "../../assets/Frame 3599 (2).svg"
 import avatar2 from "../../assets/Frame 3599.svg"
 import avatar3 from "../../assets/Frame 3599 (1).svg"
 

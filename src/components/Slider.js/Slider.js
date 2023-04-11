@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import avatar from "../../assets/Frame.svg"
+import avatar from "../../assets/Frame 3599 (2).svg"
 import avatar2 from "../../assets/Frame 3599.svg"
 import avatar3 from "../../assets/Frame 3599 (1).svg"
 import arrow from "../../assets/arrow.svg"

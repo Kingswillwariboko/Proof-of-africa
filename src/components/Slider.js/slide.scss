@@ -17,12 +17,18 @@
             background: #FFDE59;
             border: 1px solid #000000;
             border-radius: 12px;
-           
             display: flex;
             align-items: center;
             justify-content: center;
             padding: .5rem;
             margin-left: .5rem;
+
+            img{
+                width: 20%;
+            }
+            p{
+                margin-top: 0rem;
+            }
         }
         .style{
             background: #ffffff;
@@ -33,6 +39,13 @@
             justify-content: center;
             padding: .5rem;
             margin-left: .5rem;
+            img{
+                width: 20%;
+            }
+
+            p{
+                margin-top: 0rem;
+            }
         }
         p{
             margin-left: .5rem;
