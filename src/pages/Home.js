@@ -16,10 +16,14 @@ const Home = () => {
     <Hero />
     <Tribe />
     <Carousel />
-    <Element name="features-section">
-      <Info />
-    </Element>
-    <Form />
+      <Element name="features-section">
+        <Info />
+      </Element>
+
+      <Element name="form">
+        <Form />
+      </Element>
+    
     <Footer />
   </div>
   )

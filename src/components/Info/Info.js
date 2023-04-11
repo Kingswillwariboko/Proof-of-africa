@@ -2,12 +2,14 @@ import React from 'react'
 import hosts from "../../assets/Group 3618.svg"
 import avatar from "../../assets/Ellipse 7.svg"
 import avata from "../../assets/Ellipse 7 (1).svg"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll';
+
 
 import './Info.scss'
 
 const Info = () => {
   return (
+    <>
     <div className='max'>
     <div className='info'>
       <div className='info__one'>
@@ -24,7 +26,13 @@ const Info = () => {
               A unique onboarding space and an equally great opportunity to Meet, Collab, 
               and make new connections with truly talented artists!</p>
 
+              <Link
+            to="form"
+            smooth={true}
+            duration={500}
+              >
               <button>I’m an artist</button>
+              </Link>
           </div>
 
           <div className='info__one-hosts'>
@@ -53,7 +61,6 @@ const Info = () => {
                   <img src={avata} alt=""/>
                   <p>Nkesi</p>
               </div>
-              
               <p className="pp">A community builder at heart and a speaker with a passion for onboarding
                people into the web3 space; <Link to={{ pathname: `https://twitter.com/zoepoolz` }} target="_blank"> Zoepool Co-host</Link>, Nkesi is excited about bringing people who 
               share an enthusiasm for Culture and Arts together in this space. <Link to={{ pathname: `https://twitter.com/Nkesi_x` }} target="_blank">Connect On Twitter</Link></p>
@@ -62,8 +69,20 @@ const Info = () => {
       </div>
       </div>
     </div>
+
+<div className='form'>
+<div className='max'>
+  <div className='form__header'>
+      <h4>New to spaces?</h4>
+      <p>Space tip - Introduce yourself culturally, then share, collab and connect</p>
+
+      <button>I’m an artist</button>
+  </div>
+  </div>
+</div>
+</>
   )
 }
-export default Info
+export default Info;
 
 

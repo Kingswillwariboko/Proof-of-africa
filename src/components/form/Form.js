@@ -114,16 +114,7 @@ const Form = () => {
     <>
      
            
-    <div className='form'>
-      <div className='max'>
-        <div className='form__header'>
-            <h4>New to spaces?</h4>
-            <p>Space tip - Introduce yourself culturally, then share, collab and connect</p>
-
-            <button>I’m an artist</button>
-        </div>
-        </div>
-    </div>
+   
 
     <div className='formm'>
       <div className='max'>
