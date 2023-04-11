@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import africa from "../../assets/7320 1.svg"
 import Sliderr from '../Slider.js/Slider'
 import avatar from "../../assets/Frame.svg"
+import avatar2 from "../../assets/Frame 3599.svg"
+import avatar3 from "../../assets/Frame 3599 (1).svg"
 
 import "./carousel.scss"
 
@@ -77,12 +79,9 @@ const Carousel = () => {
                     generation, and we would love to showcase these 
                     ‘indigenous tribes’ in our own unique way.</p>
             </div>
-
-            
             <div className='carousel__tribe-two'>
                 <img src={africa} alt="" />
             </div>
-
             <Sliderr />
         </div>
 
@@ -97,13 +96,13 @@ const Carousel = () => {
                 </div>
                 <div onClick={()=>  setCurrentIndex(1)}className={currentIndex === 1 ? "carousel__main-item" : 'style'}>
                     <div className='inner'>
-                        <img src={avatar} alt=""/>
+                        <img src={avatar2} alt=""/>
                         <p>The Maasai Tribe</p>
                     </div>
                 </div>
                 <div onClick={()=>  setCurrentIndex(2)} className={currentIndex === 2 ? "carousel__main-item" : 'style'}>
                     <div className='inner'>
-                        <img src={avatar} alt=""/>
+                        <img src={avatar3} alt=""/>
                         <p>The Igbo Tribe</p>
                     </div>
                 </div>

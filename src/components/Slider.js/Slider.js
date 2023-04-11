@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
+
 import avatar from "../../assets/Frame.svg"
+import avatar2 from "../../assets/Frame 3599.svg"
+import avatar3 from "../../assets/Frame 3599 (1).svg"
 import arrow from "../../assets/arrow.svg"
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -91,13 +94,13 @@ const Sliderr = () => {
             </div>
             <div  onClick={()=>  setCurrentIndex(1)}className='slider__menu-one'>
                 <div className={currentIndex === 1 ? "chk": 'style'}>
-                    <img src={avatar} alt=""/>
+                    <img src={avatar2} alt=""/>
                     <p>The Maasai Tribe</p>
                 </div>
             </div>
             <div  onClick={()=>  setCurrentIndex(2)} className='slider__menu-one'>
                 <div className={currentIndex === 2 ? "chk": 'style'}>
-                    <img src={avatar} alt=""/>
+                    <img src={avatar3} alt=""/>
                     <p>The Igbo Tribe</p>
                 </div>
             </div>
