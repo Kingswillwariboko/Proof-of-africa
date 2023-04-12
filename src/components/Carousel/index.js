@@ -15,12 +15,12 @@ const datas =[
             description: "The Kikuyu also known as the 'Gikuyu' people ar the first Bantu ethnic group native to Central Kenya, who undertook the anti-colonial agitation in the 1920s. They believe in..."
         },
       second:   {
-            title:"Part 1: A Look into History",
-            description: "The Kikuyu also known as the 'Gikuyu' people ar the first Bantu ethnic group native to Central Kenya, who undertook the anti-colonial agitation in the 1920s. They believe in..."
+            title:"Part 2: Way of Life",
+            description: "The Mugumo (Fig tree) is a sacred tree among the Kikuyu people and is key to understanding the cosmology of the.."
         },
       third:  {
-            title:"Part 1: A Look into History",
-            description: "The Kikuyu also known as the 'Gikuyu' people ar the first Bantu ethnic group native to Central Kenya, who undertook the anti-colonial agitation in the 1920s. They believe in..."
+            title:"Part 3: Music",
+            description: "The Kikuyu were originally agriculturalists, however, after their harvests, they participated in choral dances coupled with..."
         },
     },
     {
@@ -29,11 +29,11 @@ const datas =[
               description: "The Maasai also known as the 'maa' people were a monotheistic dominating tribe at the beginning of 20th century. They are one of the very few..."
           },
         second:   {
-              title:"Part 1: A Look into History",
+              title:"Part 2: Way of Life",
               description: "Through a Child's eyes…"
           },
         third:  {
-              title:"Part 1: A Look into History",
+              title:"Part 3: Music",
               description: "The Maa people don't use instruments when singing or dancing. All of their music is vocal and comprises rhythms rendered by..."
           },
       },
@@ -44,11 +44,11 @@ const datas =[
               description: "The Igbo people (Ndi Igbo) are an ethnic group known for their metalworking art that flourished as early as the ninth century. Theocratic in nature, spirituality played a…"
           },
         second:   {
-              title:"Part 1: A Look into History",
+              title:"Part 2: Way of Life",
               description: "The oldest Igbo state known as the Kingdom of Nri dates back to 900 AD, and had the most popular political and religious influence over…"
           },
         third:  {
-              title:"Part 1: A Look into History",
+              title:"Part 3: Music",
               description: "Traditional music and dance are indispensable parts of the Igbo culture. They serve as a mark of identity and a unifying factor that binds the people together. Ogene is a style of Igbo music that…"
           },
       }

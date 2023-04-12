@@ -199,6 +199,9 @@
                 // height: 518px;
                 width: 550px;
         }
+
+       
+        
         }
     }
 }
@@ -237,5 +240,20 @@ color: #000000;
 .slider__main-one{
     @media (min-width: 768px){
         // height: 140px;
+}
+
+h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+
+    /* Black */
+
+    color: #000000;
+    margin-bottom: 1rem;
 }
 }
