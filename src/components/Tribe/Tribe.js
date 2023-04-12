@@ -31,7 +31,13 @@ const Tribe = () => {
                   <h4>The Tribal series</h4>
                   <p>Take a trip to the past</p>
 
-                  <button>Connect with us</button>
+                  <Link
+                      to="tribal-series"
+                      smooth={true}
+                      duration={500}
+                    >
+                      <button> Connect with us</button>
+                  </Link>
               </div>
             
               <div className='img'>
@@ -47,13 +53,14 @@ const Tribe = () => {
                     <h4 className='h4'>Cultural Spaces</h4>
                     <p>An opportunity to uncover talented web3 artists cross chain</p>
                    
-                    <Link
+                    {/* <Link
                       to="tribal-series"
                       smooth={true}
                       duration={500}
                     >
                       <button> Connect with us</button>
-                    </Link>
+                    </Link> */}
+                    <button> Connect with us</button>
                 </div>
           </div>
         </div>

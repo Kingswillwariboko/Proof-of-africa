@@ -103,7 +103,7 @@ const Carousel = () => {
                 </div>
                 <div onClick={()=>  setCurrentIndex(2)} className={currentIndex === 2 ? "carousel__main-item" : 'style'}>
                     <div className='inner'>
-                        <img src={avatar3} alt=""/>
+                        <img className="three"src={avatar3} alt=""/>
                         <p>The Igbo Tribe</p>
                     </div>
                 </div>
