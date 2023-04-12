@@ -4,6 +4,7 @@ import Sliderr from '../Slider.js/Slider'
 import avatar from "../../assets/Frame 3599 (2).svg"
 import avatar2 from "../../assets/Frame 3599.svg"
 import avatar3 from "../../assets/Frame 3599 (1).svg"
+import arrow from "../../assets/arrow.svg"
 
 import "./carousel.scss"
 
@@ -119,20 +120,29 @@ const Carousel = () => {
                             <h5>{data.first.title}</h5>
                             <p>{data.first.description}</p>
 
-                            <a>read more</a>
+                            <button className='bt'>
+                                    <p>Read more</p>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
 
                         <div  className='slider__main-one'>
                             <h5>{data.second.title}</h5>
                             <p>{data.second.description}</p>
 
-                            <a>read more</a>
+                            <button className='bt'>
+                                    <p>Read more</p>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{data.third.title}</h5>
                             <p>{data.third.description}</p>
 
-                            <a>read more</a>
+                            <button className='bt'>
+                                    <p>Read more</p>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
                        
                         </div>
