@@ -14,8 +14,16 @@ const Home = () => {
     <div className="App">
     <Header />
     <Hero />
-    <Tribe />
-    <Carousel />
+    <Element name="tribe">
+      <Tribe />
+    </Element>
+
+    <Element name="tribal-series">
+      <Carousel />
+    </Element>
+
+    
+   
       <Element name="features-section">
         <Info />
       </Element>

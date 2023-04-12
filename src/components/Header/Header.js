@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import logo from "../../assets/Proof of Africa logo con outline e tagline 2.svg"
 import menu from "../../assets/menu-01.svg"
 import "./header.scss"
+import { Link } from 'react-scroll';
 import Accordion from "../Accordion"
 
 
@@ -27,9 +28,32 @@ const Header = () => {
             
             <Accordion title="Discover Africa">
                 <ul className="ul">
+              <Link
+                to="features-section"
+                smooth={true}
+                duration={500}
+              >
                   <li>Cultural spaces</li>
-                  <li>The tribal series</li>
-                  <li>I’m an artist</li>
+             </Link>
+
+             <Link
+                to="tribe"
+                smooth={true}
+                duration={500}
+              >
+                 <li>The tribal series</li>
+             </Link>
+
+             <Link
+                to="form"
+                smooth={true}
+                duration={500}
+              >
+                <li>I’m an artist</li>
+             </Link>
+                
+                  
+                  
                 </ul>
             </Accordion>
             

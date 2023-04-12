@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import group from "../../assets/Group 3624.svg"
+import { Link } from 'react-scroll';
 
 import "./tribe.scss"
 
@@ -22,7 +23,6 @@ const Tribe = () => {
   };
 
   return (
-
     <div className='tribe'>
       <Slider {...settings}>
         <div className='tribe__main-one check-one'>
@@ -30,6 +30,7 @@ const Tribe = () => {
             <div className="main">
                   <h4>The Tribal series</h4>
                   <p>Take a trip to the past</p>
+
                   <button>Connect with us</button>
               </div>
             
@@ -45,7 +46,14 @@ const Tribe = () => {
               <div className="main">
                     <h4 className='h4'>Cultural Spaces</h4>
                     <p>An opportunity to uncover talented web3 artists cross chain</p>
-                    <button> Connect with us</button>
+                   
+                    <Link
+                      to="tribal-series"
+                      smooth={true}
+                      duration={500}
+                    >
+                      <button> Connect with us</button>
+                    </Link>
                 </div>
           </div>
         </div>
