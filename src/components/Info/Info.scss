@@ -170,13 +170,17 @@
 
         button{
             text-align: left;
-            padding: 1rem;
+            padding: .7rem;
             background-color: #FFDE59;
             border: 0;
             border-radius: 25px;
             margin-top: .3rem;
             display: flex;
             align-items: center;
+
+            @media (min-width: 768px){
+               padding: 1rem;
+              }
 
             img{
                 margin-left: .5rem;

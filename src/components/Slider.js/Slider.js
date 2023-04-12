@@ -114,27 +114,27 @@ const Sliderr = () => {
                             <div className='slider__main-one'>
                             <h5>{data.first.title}</h5>
                             <p>{data.first.description}</p>
-                            <div className='button'>
+                            <button className='bt'>
                                     <p>read more</p>
-                                    {/* <img src={arrow} alt=""/> */}
-                            </div>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{data.second.title}</h5>
                             <p>{data.second.description}</p>
 
-                            <div className='button'>
+                            <button className='bt'>
                                     <p>read more</p>
-                                    {/* <img src={arrow} alt=""/> */}
-                            </div>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
                         <div className='slider__main-one'>
                             <h5>{data.third.title}</h5>
                             <p>{data.third.description}</p>
-                            <div className='button'>
+                            <button className='bt'>
                                     <p>read more</p>
-                                    {/* <img src={arrow} alt=""/> */}
-                            </div>
+                                    <img src={arrow} alt=""/>
+                            </button>
                         </div>
                         </div>
                 </div>
