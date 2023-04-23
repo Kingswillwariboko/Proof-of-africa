@@ -68,7 +68,7 @@ const Form = () => {
     e.preventDefault();
 
   
-    db.collection("contacts")
+    db.collection("info")
    .add({
       email,
       name,
@@ -112,10 +112,6 @@ const Form = () => {
 
   return (
     <>
-     
-           
-   
-
     <div className='formm'>
       <div className='max'>
       {showModal &&  <div><div onClick={()=>setShowModal(false)} className="modal-main"></div>
